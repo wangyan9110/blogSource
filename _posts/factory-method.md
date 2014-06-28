@@ -115,7 +115,7 @@ Factory Method：定义**一个创建对象的接口**，**让子类来决定实
 Abstarct Factory：提供一个创建**一系列相关或相互依赖的接口**，而无需指定他们具体类。
 从以上粗体部分就可以体现其区别的地方。
 1.Abstarct Factory强调的是创建一系列相关相互依赖的接口，也就是Abstarct这个工厂可以生产一系列的对象，是一个一对多的关系，然后我又重新考虑了一下，Abstarct Factory的示例，并进行了完善（详情见：[设计模式学习--Abstarct Factory的ChangeLog](http://yywang.info/2014/06/23/abstract-factory/)）。它的扩展性侧重横向扩展。比如在Abstarct Factory学习中的例子，我们又来一个RoleDao，我们是在DaoFactory中增加createRoleDao方法。
-2.Factory Method强调的是创建一个对象接口，让子类来决定实例化哪一个类，也就是它的工厂和产品是一对一的关系。它的扩展性侧重的是垂直扩展，比如本节的示例，我们需要增加一个支持Sql语言的语法检查，我需要增加一个SqlParsingFactory类和一个SqlParsingl类。
+2.Factory Method强调的是创建一个对象接口，让子类来决定实例化哪一个类，也就是它的工厂和产品是一对一的关系。它的扩展性侧重的是垂直扩展，比如本节的示例，我们需要增加一个支持Sql语言的语法分析器，我需要增加一个SqlParsingFactory类和一个SqlParsing类。
 关于Abstarct Factory VS Factory Method的讨论还有如下可以参考：
 http://www.cnblogs.com/happyhippy/archive/2010/09/26/1836223.html
 http://www.cnblogs.com/procoder/archive/2009/04/24/1442920.html
