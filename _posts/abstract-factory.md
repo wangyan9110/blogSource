@@ -123,3 +123,7 @@ public class App {
 ###**Discuss**
 在以上的例子中，还可以延伸到把数据库的选择写在配置文件中，然后在系统启动时根据配置通过反射加载不同的程序，这个在以前使用c#做一个系统时用到过，在java的web开发中，一般使用spring框架，它提供了IOC技术，通过配置bean来做数据源的初始化。
 在spring的源代码中，也有Abstract Factory的使用，比如BeanFactory就是一个例子，当然它的设计要比本文中的例子，复杂的多。
+###**ChangeLog**
+在学习时发现本节示例不够完善，所以进行了完善，增加在ChangeLog中，两者的区别和联系在[设计模式学习--Factory Method](http://yywang.info/2014/06/28/factory-method/)的Discuss章节中。
+示例代码基于以上示例修改，如果理解了示例中的代码，修改为如下结构的代码比较简单就不在帖出，也可以到去[我的GitHub](https://github.com/wangyan9110/Designpatterns)下载。
+![Abstarct Factory](http://yywang.qiniudn.com/abstarct-factory-new.png)
