@@ -1,10 +1,11 @@
 title: 'FastJson 自定义Serialize、Parser'
 date: 2014-07-02 20:32:11
 categories: 
-	- Java
+	- java
 tags: 
 	- fastjson
 	- java
+	- in action
 ---
 今天在处理Json反序列化时，在C#传过来的JSON字符串中枚举类型为int类型，FastJson对于枚举的处理有两种类型，一种是字符串一种是int类型，但是它自带的解析int是按照枚举的顺序来解析的，但是有时候值不一定和顺序相对应，所以使用自定义解析器方式进行解决。在网上找解决方案，没找到比较完整的方法。通过查看源代码得出解决方案。<!--more-->
 以解析如下枚举为例：
