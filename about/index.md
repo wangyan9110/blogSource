@@ -4,7 +4,6 @@ date: 2014-05-31 15:34:29
 ###关于我
 * 程序员一名，技术涉猎较广，使用或者学习过c#,asp.net mvc,php,java,spring,spring mvc,mybaits,javascript,android,nodejs等。目前主要从事互联网教育应用开发。
 * 喜欢研究技术，崇尚简单即是美的理念。
-* 长期专注技术，社交范围甚小，正在培养多方面的兴趣。
 
 ###关于博客
 * 记录自己成长历程。
