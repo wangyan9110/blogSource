@@ -13,6 +13,7 @@ date: 2014-05-31 15:34:29
 ###联系我
 * 邮箱：wangyan9110#gmail.com(#替换成@)
 * GitHub：https://github.com/wangyan9110
+* 微博：http://weibo.com/wangyan9110/
 * 在本博客留言
 
 ###特别感谢
